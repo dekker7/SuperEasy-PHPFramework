@@ -3,7 +3,7 @@
 /**
  * Base Model
  *
- * @author dionbosschieter
+ * @author dionbosschieter dekker7
  */
 
 class BaseModel

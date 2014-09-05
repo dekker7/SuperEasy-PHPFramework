@@ -3,7 +3,7 @@
 /**
  * Description of AjaxModel
  *
- * @author dionbosschieter
+ * @author dionbosschieter dekker7
  */
 class AjaxModel
 {

@@ -15,13 +15,12 @@ class IndexController extends BaseController {
   }
 
   public function indexAction() {
-
+    
   }
 
   public function testAction() {
-    $this->_model->coolvalue = $this->_model->parameters["specialvalue"];
-    $this->_model->headingtext = "Test";
-    $this->_model->template = "indextest.tpl";
+
+    $this->_model->template = "exampletest.tpl";
   }
 
 }

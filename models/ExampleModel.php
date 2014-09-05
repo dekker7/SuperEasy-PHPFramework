@@ -3,18 +3,17 @@
 /**
  * Description of IndexModel
  *
- * @author dionbosschieter
+ * @author dionbosschieter dekker7
  */
-class LoginModel extends BaseModel
+class IndexModel extends BaseModel
 {
-    public $template = "login.tpl";
-	  public $header = "loginheader.tpl";
+    public $template = "example.tpl";
 
     public function __construct($parameters)
     {
         //always call parent first
         parent::__construct($parameters);
 
-        $this->sitetitle .= " << Login";
+        $this->sitetitle .= " << Home";
     }
 }

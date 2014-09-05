@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Description of LoginView
+ * Description of IndexView
  *
- * @author dionbosschieter
+ * @author dionbosschieter dekker7
  */
-class LoginView extends BaseView {
+class ExampleView extends BaseView {
 
   public function __construct($model, $controller) {
     parent::__construct($model, $controller);

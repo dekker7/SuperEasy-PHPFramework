@@ -29,35 +29,15 @@ abstract class BaseView
     public function render()
     {
         $this->renderHeader();
-        if($this->_model->infomessage) {
-            $this->renderInfoMessage($this->_model->infomessage);
-        }
         $this->renderContent();
         $this->renderFooter();
     }
 
-    public function renderInfoMessage($message)
-    {
-        echo "<div class='infomessage'>";
-        echo $message;
-        echo "</div>";
-    }
+
 
     protected function _renderTemplate($templatefile)
     {
         include 'templates/'.$templatefile;
-    }
-
-    protected function renderMenuBox()
-    {
-        ?>
-        <div class="navbar-collapse collapse menuBox">
-          <ul class="nav navbar-nav">
-            <li><a class="navbar-home" href="<?php echo GlobalURL::SITEROOT; ?>/">home</a></li>
-            <li><a class="navbar-gebruikers" href="<?php echo GlobalURL::getUrl(array(GlobalURL::SITEROOT, GlobalURL::ACTION_TEST, "test123")); ?>/">TestIndex</a></li>
-          </ul>
-        </div>
-        <?php
     }
 
 

@@ -8,13 +8,12 @@
 $route = Route::getInstance();
 
 $route->add('/', 'index', array("default" => "index",));
-$route->add('/test/:hash', 'index', array("specialvalue" => 1, "default" => "test",));
 
 /*
  * Login Pages
  */
-$route->add('/login', 'login', array("default" => "index",));
-$route->add('/login/:action', 'login', array("action" => 1, "default" => "index",));
+$route->add('/example', 'login', array("default" => "index",));
+$route->add('/example/:action', 'login', array("action" => 1, "default" => "index",));
 
 /*
  * Ajax/json pages
