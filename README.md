@@ -1,4 +1,4 @@
-WerktGoed
+SuperEasy-PHPFramework
 =========
 
 I did not know how to name this repo that is why it has this random name. :)
